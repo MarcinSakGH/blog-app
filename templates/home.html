@@ -5,6 +5,7 @@
         <div class="post-entry">
             <h2><a href="{% url 'post-detail' post.pk %}">{{ post.title }}</a></h2>
             <p>{{ post.body }}</p>
+            <a href="{% url 'post-edit' post.id %}">Edit Post</a>
         </div>
     {% endfor %}
 {% endblock content %}
