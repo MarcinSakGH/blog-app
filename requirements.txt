@@ -1,0 +1,13 @@
+Django
+asgiref
+certifi
+distlib
+filelock
+pip
+pipenv
+platformdirs
+setuptools
+sqlparse
+virtualenv
+wheel
+dj-database-url
